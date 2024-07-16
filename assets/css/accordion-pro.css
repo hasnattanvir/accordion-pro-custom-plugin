@@ -1,0 +1,36 @@
+/* Example CSS for accordion styles */
+.accordion-pro {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.accordion-item {
+    border-top: 1px solid #ddd;
+    margin: 10px 0; /* Default margin */
+}
+
+.accordion-title {
+    padding: 15px; /* Default padding */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px; /* Default padding */
+    background: #fff;
+}
+
+/* Example global styles */
+.accordion-title {
+    background-color: #f5f5f5; /* Global background color */
+    color: #333; /* Global text color */
+}
+
+/* Example specific styles for each accordion title */
+/* Add more styles for other accordion titles as needed */
+
+/* Optional: Active state styles */
+.accordion-title.active {
+    /* Custom styles for active title */
+}
